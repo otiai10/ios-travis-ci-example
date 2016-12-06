@@ -14,6 +14,8 @@
 		7C46361C1DF6DB900068A3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C46361A1DF6DB900068A3D4 /* LaunchScreen.storyboard */; };
 		7C4636271DF6DB900068A3D4 /* travis_ci_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4636261DF6DB900068A3D4 /* travis_ci_exampleTests.swift */; };
 		7C4636321DF6DB900068A3D4 /* travis_ci_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4636311DF6DB900068A3D4 /* travis_ci_exampleUITests.swift */; };
+		7C4636401DF6DE340068A3D4 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46363F1DF6DE340068A3D4 /* Foo.swift */; };
+		7C4636421DF6DFF10068A3D4 /* FooTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4636411DF6DFF10068A3D4 /* FooTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7C46362D1DF6DB900068A3D4 /* travis-ci-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "travis-ci-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4636311DF6DB900068A3D4 /* travis_ci_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travis_ci_exampleUITests.swift; sourceTree = "<group>"; };
 		7C4636331DF6DB900068A3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C46363F1DF6DE340068A3D4 /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		7C4636411DF6DFF10068A3D4 /* FooTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				7C4636181DF6DB900068A3D4 /* Assets.xcassets */,
 				7C46361A1DF6DB900068A3D4 /* LaunchScreen.storyboard */,
 				7C46361D1DF6DB900068A3D4 /* Info.plist */,
+				7C46363F1DF6DE340068A3D4 /* Foo.swift */,
 			);
 			path = "travis-ci-example";
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				7C4636261DF6DB900068A3D4 /* travis_ci_exampleTests.swift */,
 				7C4636281DF6DB900068A3D4 /* Info.plist */,
+				7C4636411DF6DFF10068A3D4 /* FooTest.swift */,
 			);
 			path = "travis-ci-exampleTests";
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C4636141DF6DB900068A3D4 /* ViewController.swift in Sources */,
+				7C4636401DF6DE340068A3D4 /* Foo.swift in Sources */,
 				7C4636121DF6DB900068A3D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4636421DF6DFF10068A3D4 /* FooTest.swift in Sources */,
 				7C4636271DF6DB900068A3D4 /* travis_ci_exampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
